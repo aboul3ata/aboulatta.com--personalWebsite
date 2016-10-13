@@ -1,0 +1,174 @@
+*{
+    background-color:#E5F2F7;
+        
+}
+
+#skills{
+    border-bottom-style: solid;
+    border-bottom-color: deepskyblue;
+}
+.menu{
+    position:fixed;
+    top:0px;
+    left:1px;
+    width:100%;
+    background-color: white;
+    border-style:inset;
+    border-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color:grey;
+    border-bottom-width: medium;
+    
+    
+}
+.menu li{
+    display: block;
+    color: #66757f;
+    background-color:white;
+    float:left;
+    margin-left:70px;
+    padding: 5px;
+}
+
+.pushtweetsdown{
+    width=100%;
+    height:120px;
+}
+
+.tweet{
+    
+    position:static;
+    margin-left:30%;
+    top:800px;
+    width:600px;
+    right:10000px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #66757f;
+    color:#292f33;
+    background-color: #FFF;
+    padding:3px;
+}
+
+
+p{
+    background-color: #FFF;
+}
+
+.profile{
+    width:300px;
+    height:300px;
+    position: fixed;
+    left:10px;
+    top:100px;
+    background-color: black;
+    
+}
+
+#pp {
+    position: fixed;
+    left:20px;
+    top:180px;
+    border-style:solid;
+    border-width: 5px;
+    border-color:white;
+    
+}
+
+.bottomhalf{
+    position:relative;
+    top:154px;
+    width:100%;
+    height:50%;
+    background-color: white;
+
+}
+
+.bottomhalf ul{
+    position:relative;
+    right:35px;
+    top:10px;
+
+    
+}
+
+.bottomhalf li{
+margin-top:30px;
+float: left;
+display: block;
+background-color: white; 
+margin-left:70px;
+color:darkblue /* change color to actual twitter color*/
+    
+}
+
+#numbers_profile {
+position:relative;
+top:-16px;
+margin-left:-16;
+
+}
+
+
+#numbers_profile li{  
+margin-left:100;
+}
+
+.top_post{
+    background-color:black;
+    height:64px;
+}
+@media  screen and (max-width: 1000px) {
+    
+     .bottomhalf{
+        Display:None;
+
+}
+
+.profile{
+    Display:None;
+    }
+    
+    #pp{
+        display:none;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    .menu {
+        Display:None;
+    }
+
+    .menu li{
+        Display:None;
+    }
+        
+    .bottomhalf{
+        Display:None;
+
+}
+
+.profile{
+    Display:None;
+    }
+    
+    #pp{
+        display:none;
+    }
+    
+.tweet{
+    
+    position:static;
+    margin-left:0%;
+    top:800px;
+    width:100%px;
+    height:auto;
+    right:10000px;
+    border-style:solid;
+    border-width: 3px;
+    border-color: #66757f;
+    color:#292f33;
+    background-color: #FFF;
+    padding:3px;
+    
+}
