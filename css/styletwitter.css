@@ -1,11 +1,45 @@
 *{
-    background-color:#E5F2F7;
+    background-color:#f5f8fa;
         
 }
 
+.inspired{
+    position: relative
+    height:100px;
+    left:25%;
+    margin-right:10%;
+    top:1200px;
+    text-align:right;
+    color:grey;
+    width:1000px;
+    font-size:25px;
+    background-color:;
+    font-family: 'Pacifico', cursive;
+}
+a{
+    text-decoration: none;
+    color:#66757f;
+    background-color:white
+}
+
+
+
 #skills{
+    padding:12px;
     border-bottom-style: solid;
     border-bottom-color: deepskyblue;
+}
+
+#projects {
+     padding:12px; 
+    text-decoration: none;
+}
+
+#leadership {
+     padding:12px;   
+}
+#internship {
+     padding:12px;   
 }
 .menu{
     position:fixed;
@@ -18,7 +52,7 @@
     border-bottom-style: solid;
     border-bottom-color:grey;
     border-bottom-width: medium;
-    
+    z-index: 10:
     
 }
 .menu li{
@@ -27,10 +61,15 @@
     background-color:white;
     float:left;
     margin-left:70px;
-    padding: 5px;
+    padding: px;
+}
+
+.menu li.icons{
+    margin-right:-70px;
 }
 
 .pushtweetsdown{
+    position:static;
     width=100%;
     height:120px;
 }
