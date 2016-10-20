@@ -1,0 +1,128 @@
+*{
+    background-color:#f5f8fa;
+        
+}
+
+.body{
+    margin:0px;
+}
+
+.inspired{
+    position: relative
+    height:100px;
+    left:25%;
+    margin-right:10%;
+    top:1200px;
+    text-align:right;
+    color:grey;
+    width:1000px;
+    font-size:25px;
+    background-color:;
+    font-family: 'Pacifico', cursive;
+}
+a{
+    text-decoration: none;
+    color:#66757f;
+    background-color:white
+}
+
+
+
+#skills{
+    padding:12px;
+
+}
+
+#projects {
+     padding:12px; 
+    text-decoration: none;
+}
+
+#leadership {
+    padding:12px; 
+    border-bottom-style: solid;
+    border-bottom-color: deepskyblue;
+}
+#internship {
+     padding:12px;   
+}
+.menu{
+    position:fixed;
+    top:0px;
+    left:1px;
+    width:100%;
+    background-color: white;
+    border-style:inset;
+    border-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color:grey;
+    border-bottom-width: medium;
+    z-index: 10:
+    
+}
+.menu li{
+    display: block;
+    color: #66757f;
+    background-color:white;
+    float:left;
+    margin-left:70px;
+    padding: px;
+}
+
+.menu li.icons{
+    margin-right:-70px;
+}
+
+.story{
+    position:fixed;
+    top:80px;
+    right:0px;
+    width:50%;
+    height:100%;
+    
+}
+
+.storyline1{
+    position:fixed;
+    top:69px;
+    left:0px;
+    width:50%;
+    height:100%;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+.Hide{
+    position:fixed;
+    top:69px;
+    left:0px;
+    width:50%;
+    height:100%;
+    z-index: 100;
+/*    background-color:black;*/
+}
+
+@keyframes example {
+    0%   { left:0px; top:80px;}
+    50%  { left:50%; top:80px;}
+    100% { left:50%; top:80px;}
+}
+    
+.storyline2{
+    position:fixed;
+    top:69px;
+    left:0px;
+    width:50%;
+    height:100%;
+    animation-name: example1;
+    animation-duration: 5s;
+    z-index:99;
+}
+
+
+@keyframes example1 {
+    0%   { left:0px; top:80px;}
+    50%  { left:50%; top:80px;}
+    100% { left:50%; top:80px;}
+}
+

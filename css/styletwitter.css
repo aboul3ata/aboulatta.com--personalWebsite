@@ -2,19 +2,22 @@
     background-color:#f5f8fa;
         
 }
-
+.body{
+    z-index: -1;
+}
 .inspired{
-    position: relative
+    position: relative;
     height:100px;
     left:25%;
     margin-right:10%;
-    top:1200px;
+    top:100px;
     text-align:right;
     color:grey;
     width:1000px;
     font-size:25px;
     background-color:;
     font-family: 'Pacifico', cursive;
+    z-index: 0;
 }
 a{
     text-decoration: none;
@@ -52,7 +55,7 @@ a{
     border-bottom-style: solid;
     border-bottom-color:grey;
     border-bottom-width: medium;
-    z-index: 10:
+    z-index: 10;
     
 }
 .menu li{
@@ -61,7 +64,8 @@ a{
     background-color:white;
     float:left;
     margin-left:70px;
-    padding: px;
+    
+
 }
 
 .menu li.icons{
@@ -70,8 +74,10 @@ a{
 
 .pushtweetsdown{
     position:static;
-    width=100%;
+    width=100px;
     height:120px;
+    z-index:3;
+
 }
 
 .tweet{
@@ -157,21 +163,7 @@ margin-left:100;
     background-color:black;
     height:64px;
 }
-@media  screen and (max-width: 1000px) {
-    
-     .bottomhalf{
-        Display:None;
 
-}
-
-.profile{
-    Display:None;
-    }
-    
-    #pp{
-        display:none;
-    }
-}
 
 @media  screen and (max-width: 800px) {
     .menu {
@@ -211,3 +203,19 @@ margin-left:100;
     padding:3px;
     
 }
+@media  screen and (max-width: 1000px) {
+    
+     .bottomhalf{
+        Display:None;
+
+}
+
+.profile{
+    Display:None;
+    }
+    
+    #pp{
+        display:none;
+    }
+}
+
