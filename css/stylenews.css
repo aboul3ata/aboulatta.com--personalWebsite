@@ -80,10 +80,10 @@ a{
 
 .blck{
     position:relative;
-    top:80px;
+    top:30%;
     display: inline-flex;
-    height:600px;
-    width:600px;
+    height:200px;
+    width:200px;
     background-color: black;
     z-index: 0;
     padding:3px;

@@ -1,19 +1,34 @@
-*{
-    background-color:#f5f8fa;
-        
-}
-.body{
+
+body{
     z-index: -1;
+    background-color:#f5f8fa;
+    font-family: 'arial',sans-serif;
 }
+
+    .date{
+        position:relative;
+        font-size:25px;
+        margin:0px;
+        width:300px;
+        left:70px;
+        text-align: right;
+        color:grey;
+        top:-50px;
+        z-index: 0;
+    }
+
+    .top_post img{
+        display:inline;
+    }
 .inspired{
     position: relative;
     height:100px;
-    left:25%;
+    left:80%;
     margin-right:10%;
     top:100px;
     text-align:right;
     color:grey;
-    width:1000px;
+    width:300px;
     font-size:25px;
     background-color:;
     font-family: 'Pacifico', cursive;
@@ -72,99 +87,175 @@ a{
     margin-right:-70px;
 }
 
-.pushtweetsdown{
-    position:static;
-    width=100px;
-    height:120px;
-    z-index:3;
 
-}
 
 .tweet{
-    
     position:static;
-    margin-left:30%;
-    top:800px;
-    width:600px;
-    right:10000px;
+    display:inline-block;
+    margin-left:25%;
+    width:750px;
     border-style:solid;
-    border-width: 3px;
+    border-width: 1px;
     border-color: #66757f;
     color:#292f33;
     background-color: #FFF;
     padding:3px;
+    border-radius: 5px 5px 5px 5px;
 }
 
+.pushdown{
+    position:static;
+    display:inline-block;
+    margin-left:25%;
+    width:750px;
+    height:100px;
 
+    padding:3px;
+    
+}
 p{
     background-color: #FFF;
 }
 
 .profile{
+    position: relative;
     width:300px;
-    height:300px;
-    position: fixed;
+    height:150px;
     left:10px;
-    top:100px;
-    background-color: black;
+    top:-1400px;
+    background-color: black; 
     
 }
 
+.profbackground{
+    position:relative;
+    display:inline;
+    background-color:green;
+    height:50%;
+    width:100px;
+}
+
 #pp {
-    position: fixed;
+    position: relative;
+    width:90px;
     left:20px;
-    top:180px;
+    top:-60px;
     border-style:solid;
-    border-width: 5px;
-    border-color:white;
+    border-width:0.5px;
+    border-color:lightyellow;
     
 }
 
 .bottomhalf{
     position:relative;
-    top:154px;
     width:100%;
-    height:50%;
+    height:75%;
     background-color: white;
 
 }
 
 .bottomhalf ul{
     position:relative;
-    right:35px;
-    top:10px;
+    right:20px;
+    top:-100px;
+    
 
     
 }
 
 .bottomhalf li{
+    
 margin-top:30px;
 float: left;
 display: block;
 background-color: white; 
-margin-left:70px;
-color:darkblue /* change color to actual twitter color*/
+color:#0485b5;
+font-size:18px;
+    
+}
+
+.bottomhalf .profiledes{
+margin-top:30px;
+float: left;
+display: block;
+font-size:14px;
+background-color: white; 
+margin-left:33px;
+color:#808c94;
+
     
 }
 
 #numbers_profile {
 position:relative;
-top:-16px;
-margin-left:-16;
+top:-115px;
+margin-left:-23;
 
 }
 
 
 #numbers_profile li{  
-margin-left:100;
+margin-left:62;
 }
 
-.top_post{
-    background-color:black;
-    height:64px;
+.top_post {
+    border-bottom-style: dashed;
+    border-bottom-width:1px;
+    display:inline-block;
+    width:100%;
+    height:72px;
+}
+
+.trends{
+
+    position:relative;
+    display:inline-block;
+    margin-left:80%;
+    top:-1700px;
+    width:300px;
+    height:auto;
+    border-style:solid;
+    border-color:#808c94;
+    border-color:#808c94;
+    border-width:2px;
+    background-color:white;
+    border-radius: 15px 15px 15px 15px;
 }
 
 
+.trends h3{
+    margin-left:18px;
+    color:#808c94;
+    font-size:25px;
+    margin-top:10px;
+}
+
+.trends p{
+    margin-left:20px;
+    color:#0485b5;
+    font-size:19px;
+    margin-bottom:2px;
+}
+
+
+
+.trends .trenddes{
+    position:relative;
+    margin-right:7px;
+    font-size:14px;
+    margin-top:0px;
+    color:#808c94;
+}
+
+
+
+
+
+
+
+
+
+/*
 @media  screen and (max-width: 800px) {
     .menu {
         Display:None;
@@ -203,6 +294,8 @@ margin-left:100;
     padding:3px;
     
 }
+*/
+/*
 @media  screen and (max-width: 1000px) {
     
      .bottomhalf{
@@ -219,3 +312,10 @@ margin-left:100;
     }
 }
 
+    .img{
+    background-color: white;
+        
+    }
+    
+    
+*/
