@@ -1,0 +1,97 @@
+*{
+    background-color:#f5f8fa;
+        
+}
+.h1{
+    margin:0px;
+}
+.body{
+    margin:0px;
+}
+
+.inspired{
+    position: relative;
+    height:100px;
+    left:25%;
+    margin-right:10%;
+    top:1200px;
+    text-align:right;
+    color:grey;
+    width:1000px;
+    font-size:25px;
+    background-color:;
+    font-family: 'Pacifico', cursive;
+}
+a{
+    text-decoration: none;
+    color:#66757f;
+    background-color:white
+}
+
+
+
+#skills{
+    padding:12px;
+
+}
+
+#projects {
+     padding:12px; 
+    text-decoration: none;
+}
+
+#leadership {
+    padding:12px; 
+
+}
+#internship {
+     padding:12px; 
+    border-bottom-style: solid;
+    border-bottom-color: deepskyblue;
+}
+.menu{
+    position:fixed;
+    top:0px;
+    left:1px;
+    width:100%;
+    background-color: white;
+    border-style:inset;
+    border-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color:grey;
+    border-bottom-width: medium;
+    z-index: 10;
+    
+}
+.menu li{
+    display: block;
+    color: #66757f;
+    background-color:white;
+    float:left;
+    margin-left:70px;
+
+}
+
+.menu li.icons{
+    margin-right:-70px;
+}
+
+
+
+.blck{
+    position:relative;
+    top:80px;
+    display: inline-flex;
+    height:600px;
+    width:600px;
+    background-color: black;
+    z-index: 0;
+    padding:3px;
+    margin-left:150px;
+    margin-top:100px;
+    margin-bottom:35px;
+    border-radius: 15px 15px 15px 15px;
+    border-color:grey;
+    
+    
+}
