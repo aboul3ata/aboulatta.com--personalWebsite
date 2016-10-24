@@ -151,22 +151,9 @@ color:#646262;
 
 @media screen and (max-width: 480px)  {
     
-    header{
-            max-width:360px;
-    }
-    body{
-        max-width:360px;
-    }
-    .trends{
-        visibility: hidden;
-    }
-    
-    .profile{
-        visibility: hidden;
-    }
     
     .menu{
-        max-width: 92%;
+        max-width: 370px;;
         max-height: 60px;
         border-right-style:solid;
         border-right-width:4px;
@@ -185,6 +172,10 @@ color:#646262;
     .inspired{
         visibility: hidden;
         height: 0px;
+        position: fixed;
+        left:20px;
+        top:20px;
+        margin:0px;
     }
     
     .post{
@@ -199,8 +190,11 @@ color:#646262;
 
         .pushdown{
         visibility: hidden;
-        height:120px;
-        width:360px;
+        position:fixed;
+        top:20px;
+        left:20px;
+        height:0px;
+        width:0px;
         }
     
     .menu2{
