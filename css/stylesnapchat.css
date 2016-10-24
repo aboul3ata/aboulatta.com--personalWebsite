@@ -125,3 +125,15 @@ a{
     100% { left:50%; top:69px;}
 }
 
+
+
+.thething{
+    margin-left:10%;
+    width:60%;
+    height:50px;
+    background-color:black;
+    position:relative;
+    display: inline-block;
+    color:#808c94;
+    z-index:1000;
+}
