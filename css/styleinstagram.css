@@ -166,8 +166,11 @@ color:#646262;
     }
     
     .menu{
-        max-width: 100%;
+        max-width: 92%;
         max-height: 60px;
+        border-right-style:solid;
+        border-right-width:4px;
+        border-right-color:gray;
     }
     
     .menu li{
