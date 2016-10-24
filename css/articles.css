@@ -1,0 +1,159 @@
+* {
+    color:5B5B5B;
+    text-align:center;
+}
+    body{
+        margin:0px;
+    }
+
+.continue{
+    text-align: Right;
+    margin-top:15px;
+    margin-right:25px;
+}
+
+.landing{
+    padding: 30px;
+    margin: auto;
+    max-width: 700px;
+    max-height: 150px;
+    margin:230px auto 200px auto;
+    Font-size:30px;
+}
+
+
+
+
+.exitw{
+    position:fixed;
+    right:40px;
+    bottom:40px;
+    font-size:15px;
+}
+ 
+.notemployer{
+    position:fixed;
+    right:10px;
+    top:5px;
+}
+
+.button{
+    border:5px solid;
+    border-radius: 150px 150px 150px 10px;
+    font-size:10px;
+    width:10px;
+    height:13px;
+}
+
+.buttontxt{
+    position:relative;
+    top:-20px;
+    left:-40px;
+    width:60px;
+    font-size:20px;
+    text-align: left;
+    
+}
+
+
+.menu{
+/*
+    background-color: #D2D2D2;
+    position:fixed;
+    width: 100%;
+    border-color: white;
+    display: block;
+    border-top-width:30px;
+    border:3px;
+    margin-top:50px;
+    text-decoration: none;
+*/
+    position:fixed;
+    top:0px;
+    left:1px;
+    width:100%;
+    height:35px;
+    background-color: white;
+    border-style:inset;
+    border-width: medium;
+    border-bottom-style: solid;
+    border-bottom-color:grey;
+    border-bottom-width: medium;
+
+}
+
+.menu li{
+    display: block;
+    color: #66757f;
+    background-color:white;
+    float:left;
+    margin-left:70px;
+    padding: 5px;
+}
+
+
+.menu ul{
+    position:relative;
+    Top:3px;
+    right:0px;
+    margin-top:0px;
+    overflow:hidden;
+}
+
+.slideshow{
+    position:fixed;
+    top:40%;
+    left:35%;    
+}
+
+.explorer_options{
+    position:relative;
+    bottom:-150px;
+    height:300px;
+    margin:0px;
+    Background-color:Grey;
+}
+
+.explorer_internships, .explorer_projects, .explorer_leadership, .explorer_skill_set {
+
+float:left;
+display:inline-block;
+margin-left:30px;
+padding:30px;
+width:100px;
+height:40px;
+margin:40px;
+
+
+
+    
+}
+    
+
+.exploerer_options ul{ 
+
+    
+}
+.explorer_options li{
+display:block;
+position:relative;
+left:145%;
+  
+
+    
+}
+    
+.top_image{
+    width:100%;
+    height:auto;
+    overflow:hidden;
+}
+
+.back{
+    z-index: 10;
+    font-size:30px;
+    text-align:left;
+    opacity: 0.2;
+    color:black;
+    background-color: grey;
+}
