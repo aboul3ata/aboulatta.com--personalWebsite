@@ -139,3 +139,82 @@ a{
 .column li{
     margin-bottom:20px;
 }
+
+.menu2{
+    visibility: hidden;
+}
+@media screen and (max-width: 800px)  {
+
+    header{
+            max-width:360px;
+    }
+    body{
+        max-width:360px;
+    }
+    
+    .responsibilites{
+        display: block;
+        position:relative;
+        top:-400px;
+        left:0px;
+    }
+    .date{
+        display: block;
+    }
+    
+    .column ul{
+        display: block;
+        position: relative;
+        top:-400px;
+        left:0px;
+    }
+    
+    .profile{
+        visibility: hidden;
+    }
+    
+    .menu{
+        max-width: 100%;
+        max-height: 60px;
+    }
+    
+    .menu li{
+        visibility: hidden;
+        margin:0px;
+    }
+    
+.menu li.icons{
+    visibility: visible;
+    }
+    
+
+        .pushdown{
+        visibility: hidden;
+        height:120px;
+        width:360px;
+        }
+    
+    .menu2{
+        visibility: visible;
+        position: fixed;
+        top:80px;
+        left:150px;
+        color:#808c94;
+        font-size:20px;
+        
+    }
+    
+    .column{
+        max-width:360px;
+    }
+    
+    .column img{
+        display: block;
+        max-width:100px;
+        max-height:100px;
+    }
+    .duration{
+        display: block;
+    }
+
+    }

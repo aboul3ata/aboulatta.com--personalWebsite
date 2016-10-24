@@ -1,25 +1,15 @@
 *{
     background-color:#f5f8fa;
+    font-family: 'arial',sans-serif;
         
 }
 
 .body{
     margin:0px;
+
 }
 
-.inspired{
-    position: relative
-    height:100px;
-    left:25%;
-    margin-right:10%;
-    top:1200px;
-    text-align:right;
-    color:grey;
-    width:1000px;
-    font-size:25px;
-    background-color:;
-    font-family: 'Pacifico', cursive;
-}
+
 a{
     text-decoration: none;
     color:#66757f;
@@ -55,8 +45,7 @@ a{
     border-style:inset;
     border-width: medium;
     border-bottom-style: solid;
-    border-bottom-color:grey;
-    border-bottom-width: medium;
+
     z-index: 10:
     
 }
@@ -76,10 +65,27 @@ a{
     position:fixed;
     top:69px;
     right:0px;
-    width:50%;
-    height:100%;
+    width:800px;
+    height:800px;
     
 }
+
+
+
+.Hide{
+    position:fixed;
+    top:68px;
+    left:0px;
+    width:50%;
+    height:100%;
+    z-index: 100;
+    border-right-style: solid;
+    border-right-width: 3px;
+    border-right-color:grey;
+}
+
+
+    
 
 .storyline1{
     position:fixed;
@@ -87,53 +93,161 @@ a{
     left:0px;
     width:50%;
     height:100%;
-    animation-name: example;
-    animation-duration: 10s;
+    animation-name: stry0;
+    animation-duration: 15s;
 }
-
-.Hide{
-    position:fixed;
-    top:69px;
-    left:0px;
-    width:50%;
-    height:100%;
-    z-index: 100;
-/*    background-color:black;*/
-}
-
-@keyframes example {
-    0%   { left:0px; top:69px;}
-    50%  { left:50%; top:69px;}
-    100% { left:50%; top:69px;}
-}
-    
 .storyline2{
     position:fixed;
     top:69px;
     left:0px;
     width:50%;
     height:100%;
-    animation-name: example1;
+    animation-name: stry1;
+    animation-duration: 10s;
+    z-index:99;
+}
+
+.storyline3{
+    position:fixed;
+    top:69px;
+    left:0px;
+    width:50%;
+    height:100%;
+    animation-name: stry2;
+    animation-duration: 7s;
+    z-index:99;
+}
+
+.storyline4{
+    position:fixed;
+    top:69px;
+    left:0px;
+    width:50%;
+    height:100%;
+    animation-name: stry3;
     animation-duration: 5s;
     z-index:99;
 }
 
-
-@keyframes example1 {
+@keyframes stry0 {
+    0%   { left:0px; top:69px;}
+    50%  { left:50%; top:69px;}
+    100% { left:50%; top:69px;}
+}
+@keyframes stry1 {
     0%   { left:0px; top:69px;}
     50%  { left:50%; top:69px;}
     100% { left:50%; top:69px;}
 }
 
 
+@keyframes stry2 {
+    0%   { left:0px; top:69px;}
+    70%  { left:50%; top:69px;}
+    100% { left:50%; top:69px;}
+}
 
+
+@keyframes stry3 {
+    0%   { left:0px; top:69px;}
+    90%  { left:50%; top:69px;}
+    100% { left:50%; top:69px;}
+}
 .thething{
-    margin-left:10%;
-    width:60%;
+    margin-top:90px;
+    margin-left:70px;
+    position:absolute;
+    width:420px;
+    margin-left:200px;
     height:50px;
-    background-color:black;
-    position:relative;
+    font-size: 15px;
+    text-align: center;
+    border-style:solid;
+    position:static;
     display: inline-block;
     color:#808c94;
     z-index:1000;
+    border-width:0.5px;
 }
+
+.thething img{
+    display:inline-block;
+    position: relative;
+    left:-179px;
+    z-index: 50;
+}
+
+.thething p{
+    position: relative;
+    top:-50;
+    
+}
+
+
+.inspired{
+    position: relative;
+    margin-left:10%;
+    text-align:center;
+    top:50px;
+    color:grey;
+    width:300px;
+    font-size:25px;
+    background-color:;
+    font-family: 'Pacifico', cursive;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1250px)  {
+    
+    header{
+            max-width:360px;
+    }
+    body{
+        max-width:360px;
+    }
+
+    
+    .menu{
+        max-width: 100%;
+        max-height: 60px;
+    }
+    
+    .menu li{
+        visibility: hidden;
+        margin:0px;
+    }
+    
+.menu li.icons{
+    visibility: visible;
+    }
+    
+    .inspired{
+        visibility: hidden;
+        height: 0px;
+    }
+    
+
+    
+
+    .menu2{
+        visibility: visible;
+        position: fixed;
+        top:90px;
+        left:150px;
+        color:#808c94;
+        font-size:20px;
+        
+    }
+    
+    .thething{
+        position:relative;
+        display: block;
+        top:0px;
+        height:45px;
+        left:30px;
+        margin:0px;
+        font-size:10px;
+        text-align: center;
+        width:150px;
+    }
+    }
