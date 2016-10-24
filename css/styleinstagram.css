@@ -3,6 +3,12 @@
         
 }
 
+body{
+    z-index: -1;
+    font-family: 'arial',sans-serif;
+    background-color:#fafafa;
+}
+
 .inspired{
     position: relative;
     height:100px;
@@ -13,13 +19,13 @@
     color:grey;
     width:1000px;
     font-size:25px;
-    background-color:;
+    background-color:#fafafa;
     font-family: 'Pacifico', cursive;
 }
 a{
     text-decoration: none;
     color:#66757f;
-    background-color:white
+    background-color:white;
 }
 
 
@@ -53,7 +59,7 @@ a{
     border-bottom-style: solid;
     border-bottom-color:grey;
     border-bottom-width: medium;
-    z-index: 10:
+    z-index: 10;
     
 }
 .menu li{
@@ -62,7 +68,6 @@ a{
     background-color:white;
     float:left;
     margin-left:70px;
-    padding: px;
 }
 
 .menu li.icons{
@@ -72,12 +77,39 @@ a{
 .pushpostdown{
     width:100%;
     height:100px;
+    background-color:#fafafa;
+
 }
 
 .top_post{
     width=100%;
     height:64px;
-    background-color:black;
+    margin:0px;
+    margin-bottom:15px;
+}
+
+.top_post img{
+    display:inline-block;
+    margin:0px;
+    }
+.headerpost{
+    display:inline-block;
+    margin-top:0px;
+    position:relative;
+    top:-42px;
+    left:5px;
+    font-size:30px;
+    margin:0px;
+}
+
+.location{
+    
+position:relative;
+display:inline-block;
+top:-17px;
+right:200px;
+color:#646262;
+    
 }
 .post{
     position:static;
@@ -85,11 +117,30 @@ a{
     top:800px;
     width:600px;
     border-style:solid;
-    border-width: 3px;
-    border-color: #66757f;
+    border-width: 0.5px;
+    margin-bottom:35px;
+    border-color: #efefef;
     color:#292f33;
     background-color: #FFF;
     padding:3px;
     
 }
 
+
+.bottompost{
+    position:relative;
+    width:100%;
+    height:64px;
+/*    background-color:black;*/
+}
+
+.bottomdes{
+    position:relative;
+    margin:0px;
+}
+
+.date {
+    color:#808c94;
+    font-size: 12px;
+    margin-left:5px;
+}
