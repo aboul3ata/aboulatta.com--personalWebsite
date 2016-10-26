@@ -1,5 +1,5 @@
 *{
-    background-color:#f5f8fa;
+    background-color:#fafafa;
     font-family: 'arial',sans-serif;
         
 }
@@ -10,10 +10,11 @@
 }
 
 
+
 a{
     text-decoration: none;
     color:#66757f;
-    background-color:white
+    background-color:white;
 }
 
 
@@ -23,17 +24,18 @@ a{
 
 }
 
-#projects {
+#leadership {
      padding:12px; 
     text-decoration: none;
-}
-
-#leadership {
-    padding:12px; 
-    border-bottom-style: solid;
+        border-bottom-style: solid;
     border-bottom-color: deepskyblue;
 }
-#internship {
+
+#about {
+     padding:12px; 
+
+}
+#experience {
      padding:12px;   
 }
 .menu{
@@ -43,15 +45,15 @@ a{
     width:100%;
     background-color: white;
     border-style:inset;
-    border-width: medium;
-    border-bottom-style: solid;
-
-    z-index: 10:
+    border-width:thin;
+    z-index: 10;
+    padding:2px;
+    
     
 }
 .menu li{
     display: block;
-    color: #66757f;
+    color: #B0BAC0;
     background-color:white;
     float:left;
     margin-left:70px;

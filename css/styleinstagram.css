@@ -19,6 +19,7 @@ body{
     background-color:#fafafa;
     font-family: 'Pacifico', cursive;
 }
+
 a{
     text-decoration: none;
     color:#66757f;
@@ -32,18 +33,19 @@ a{
 
 }
 
-#projects {
+#leadership {
      padding:12px; 
     text-decoration: none;
-    border-bottom-style: solid;
-    border-bottom-color: deepskyblue;
 }
 
-#leadership {
-     padding:12px;   
+#about {
+     padding:12px; 
+
 }
-#internship {
-     padding:12px;   
+#experience {
+     padding:12px; 
+    border-bottom-style: solid;
+    border-bottom-color: deepskyblue;
 }
 .menu{
     position:fixed;
@@ -52,16 +54,15 @@ a{
     width:100%;
     background-color: white;
     border-style:inset;
-    border-width: medium;
-    border-bottom-style: solid;
-    border-bottom-color:grey;
-    border-bottom-width: medium;
+    border-width:thin;
     z-index: 10;
+    padding:2px;
+    
     
 }
 .menu li{
     display: block;
-    color: #66757f;
+    color: #B0BAC0;
     background-color:white;
     float:left;
     margin-left:70px;

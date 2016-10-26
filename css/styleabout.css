@@ -1,0 +1,170 @@
+
+
+a{
+    text-decoration: none;
+    color:#66757f;
+    background-color:white;
+}
+
+
+
+#skills{
+    padding:12px;
+
+}
+
+#leadership {
+     padding:12px; 
+    text-decoration: none;
+}
+
+#about {
+     padding:12px; 
+        border-bottom-style: solid;
+    border-bottom-color: deepskyblue;
+}
+#experience {
+     padding:12px;   
+}
+.menu{
+    position:fixed;
+    top:0px;
+    left:1px;
+    width:100%;
+    background-color: white;
+    border-style:inset;
+    border-width:thin;
+    z-index: 10;
+    padding:2px;
+    
+    
+}
+.menu li{
+    display: block;
+    color: #B0BAC0;
+    background-color:white;
+    float:left;
+    margin-left:70px;
+}
+
+.menu li.icons{
+    margin-right:-70px;
+}
+
+
+
+
+body {
+  font-family: 'arial',sans-serif;
+  background: #fafafa;
+  color:gray;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}  
+
+
+.intro {
+  padding: 100px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/*This entire following part was adapted from https://webdesign.tutsplus.com/tutorials/building-a-vertical-timeline-with-css-and-a-touch-of-javascript--cms-26528*/
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background-color:darkgray;
+}
+
+.timeline ul li::after {
+  content: '';
+  position: absolute;
+  left: -190%;
+  bottom: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 15px;
+  background: #FFF;
+border-style:solid;
+}
+
+
+
+.timeline ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+
+
+.timeline ul li:nth-child(even) div {
+  left: -459px;
+}
+
+
+
+
+
+@media screen and (max-width: 480px)  {
+
+
+    body{
+        max-width:100%;
+        margin: 0px;
+        overflow-y: scroll;
+        
+    }
+
+    
+    .menu{
+        width: 379px;
+        height:69px;
+        border-right-style:solid;
+        border-right-width:4px;
+        border-right-color:gray;
+    }
+    
+    .menu li{
+        visibility: hidden;
+        margin:0px;
+    }
+    
+.menu li.icons{
+    visibility: visible;
+    }
+    
+      .timeline ul li {
+    margin-left: 20px;
+  }
+  .timeline ul li div {
+    width:200px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+    
